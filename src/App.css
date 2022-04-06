@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.Portfolio {
+  max-width: 70vw;
+  margin: auto;
+}
+
+.Toolbar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.project {
+  width: 33.3%;
+  display: inline-block;
+}
+
+.project img {
+  width: 97%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.FilterButton {
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  user-select: none;
+  transition: 150ms;
+}
+
+.FilterButton:hover {
+  background-color: #ddd;
+}
+
+.FilterButton.selected {
+  background-color: black;
+  color: white;
+}
+
+.FilterButton.selected:hover {
+  background-color: #222;
+}
